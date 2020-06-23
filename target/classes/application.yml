@@ -1,0 +1,12 @@
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+    content-type: text/html
+    cache: false
+
+  profiles:
+    active: dev
+  messages:
+    basename: i18n/messages
+
+comment.avatar: /images/avatar.png
